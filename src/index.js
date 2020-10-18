@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet, FlatList, ActivityIndicator } from 'react-native';
+import { View, Text, Image, TouchableOpacity, StyleSheet, FlatList } from 'react-native';
 import axios from 'axios';
-
-// import api from './services/api';
 
 // Menor que 10 reais
 // const productsURL = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bbd6fdd-abae-411d-96cc-1a5d76d3803b/abaixo-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201017%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201017T180643Z&X-Amz-Expires=86400&X-Amz-Signature=e769358d48c4acc8ee0341637f42ca3fd05baf7f2e651af1e2c84c3569957a11&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22abaixo-10-reais.json%22'
@@ -12,7 +10,6 @@ const productsURL = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com
 
 
 export default function App(){
-    // const [isLoading, setLoading] = useState(true);
     const [data, setData] = useState([]);
     const [value, setValue] = useState([]);
     
