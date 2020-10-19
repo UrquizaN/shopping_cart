@@ -3,9 +3,9 @@ import { View, Text, Image, TouchableOpacity, StyleSheet, FlatList } from 'react
 import axios from 'axios';
 
 // Menor que 10 reais
-// const productsURL = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bbd6fdd-abae-411d-96cc-1a5d76d3803b/abaixo-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201017%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201017T180643Z&X-Amz-Expires=86400&X-Amz-Signature=e769358d48c4acc8ee0341637f42ca3fd05baf7f2e651af1e2c84c3569957a11&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22abaixo-10-reais.json%22'
+// const productsURL = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/5bbd6fdd-abae-411d-96cc-1a5d76d3803b/abaixo-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201019T023147Z&X-Amz-Expires=86400&X-Amz-Signature=07bea94842844d7dee239ec41cce10cf08a1c6e2be75571725a0be923cda0731&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22abaixo-10-reais.json%22'
 // Maior que 10 reais
-const productsURL = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11b895d0-bc64-4f3a-bfa9-7c652be8d415/acima-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201017%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201017T180354Z&X-Amz-Expires=86400&X-Amz-Signature=4d00a6762a0f29da47dc1685109b9d4774ff9c6a821e8e91130b4d213f0eeec3&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22acima-10-reais.json%22'
+const productsURL = 'https://s3.us-west-2.amazonaws.com/secure.notion-static.com/11b895d0-bc64-4f3a-bfa9-7c652be8d415/acima-10-reais.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201019%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201019T023148Z&X-Amz-Expires=86400&X-Amz-Signature=75fe2b27a2bddaf9b0144060cfa95bff5e73370b55929b6bfd0c454e39f8e3d8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22acima-10-reais.json%22'
 
 
 
